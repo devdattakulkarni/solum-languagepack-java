@@ -19,4 +19,4 @@ RUN apt-get -yqq install maven
 # Define commonly used JAVA_HOME variable
 ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
 
-ADD bin /solum/bin
+COPY bin /solum/bin
